@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button id="myButton">Click Me!</button>
+  <p id="output">Try clicking, hovering, typing, or long pressing!</p>
+
+  
+  <h2>Interactive Elements</h2>
+
+  <!-- Button -->
+  <button id="changeBtn">Just click</button>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img id="galleryImg" src="https://picsum.photos/id/1015/600/400" alt="Gallery Image">
+  </div>
+
+  <!-- buttons for Tab -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="1">On Tab 1</button>
+    <button class="tab-btn" data-tab="2">On Tab 2</button>
+    <button class="tab-btn" data-tab="3">On Tab 3</button>
+  </div>
+
+
+   <!-- Content buttons for Tab -->
+  <div class="tab-content active" id="tab-1">
+    <p>Tab 1 button.</p>
+  </div>
+  <div class="tab-content" id="tab-2">
+    <p>Tab 2 button.</p>
+  </div>
+  <div class="tab-content" id="tab-3">
+    <p>Tab 3 button.</p>
+  </div>
+
+
+
+  <h2>Form Validation </h2>
+
+  <form id="myForm" novalidate>
+    <input type="text" id="name" placeholder="Your Name" required />
+    <div id="nameError" class="error"></div>
+
+    <input type="email" id="email" placeholder="Your Email" required />
+    <div id="emailError" class="error"></div>
+
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <div id="passwordError" class="error"></div>
+
+    <button type="submit">Submit</button>
+    <div id="formMessage" class="success"></div>
+  </form>
+
+<script src="scritp.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
